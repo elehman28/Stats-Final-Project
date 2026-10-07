@@ -1,0 +1,12 @@
+variable,label,unit,level,n,mean,sd,min,max
+cc_wage_annual_mean,Childcare-worker mean annual wage (SOC 39-9011),$,county,1155,27731.82683982684,4139.3708282626385,19540.0,41700.0
+cc_wage_annual_mean,Childcare-worker mean annual wage (SOC 39-9011) - one obs. per metro area,$,metro area,373,27786.648793565684,4376.6559111988845,19540.0,41700.0
+per_capita_income,Per-capita income,$,county,1159,37485.53666954271,9201.80957940183,16368.0,89702.0
+median_gross_rent,Median gross rent (monthly),$,county,1158,1082.8860103626944,325.96454695493594,430.0,2805.0
+pop_total,Total population,count,county,1159,242960.86798964624,519476.22675860557,50.0,9936690.0
+kids_under6,Own children under 6,count,county,1159,16247.874029335635,35112.87226142266,0.0,616046.0
+kids_under6_allpar_lf,"Children under 6, all resident parents in labor force",count,county,1159,10968.16048317515,23184.07934062345,0.0,406465.0
+under6_share,Share of population under 6,share,county,1159,0.06423478200636473,0.011106891122541403,0.0,0.1092753623188405
+under6_careneed_share,Share of population under 6 needing care,share,county,1159,0.04324229115507385,0.008676773171778568,0.0,0.0695074663806616
+female_college_share,Share of women 25+ with bachelor's or higher,share,county,1159,0.30197089987153686,0.10919237169143332,0.0811783224645828,0.776125322228832
+female_ftyr_share,"Share of women 16-64 working full-time, year-round",share,county,1159,0.44649229005297064,0.05498555729191353,0.2115844901866922,0.7142857142857143

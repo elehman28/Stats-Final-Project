@@ -1,0 +1,28 @@
+# Your written answers for the PS4 PDF.
+# Type your answer under each "## " heading, then rebuild with:
+#     cd PS4 && ../.venv/bin/python build_ps4_pdf.py
+# Lines starting with "#" are ignored. Leave a section empty to get a blank, lined
+# answer box in the PDF. Separate paragraphs with a blank line.
+
+## name
+Elise Lehman
+
+## q2_discussion
+# Q2 - Discuss differences in prices across age groups.
+As children get older, prices fall for childcare, as seen by the means. Also, since the CI's don't overlap, this is statistically significant difference, meaning not by chance. This could be due to lower costs for childcare of older children as compared with younger ones.
+
+## q3_discussion
+# Q3 - What has happened to childcare prices over this period?
+Nominal prices for childcare over this period rose, however real prices remained fairly flat. Rising a little through 2020 but then decreasing by 2022.
+
+## q4d_interpretation
+# Q4(d) - Do you reject H0, and why? What happens with 2015 data and subsidy levels?
+I reject H₀ because the test stat (6.39) in 2022 elicits an extremely small p-value. Because the t stat is about one fourth of the t stat from 2015, meaning that the voucher was much lower than the average price. I also reject the 2015 null hypothesis due to the t-stat.
+
+## ai_use
+# Note on AI use - printed in the appendix. Edit freely.
+I used Claude Code (Anthropic's AI coding assistant) for the data portion of this problem set, as the assignment allows. For Question 1, I gave Claude the assignment PDF and the NDCP2022.xlsx workbook and asked it to read "The Data" section, then restrict the data to 2015-2022 and to the metro analysis sample (counties in an OEWS metropolitan area, per Geography & crosswalks). Claude wrote ps4_step1_metro_sample.py, which zero-pads the FIPS codes, merges the year-specific county_oews_crosswalk.csv, and keeps counties whose oews_area begins with "00".
+
+For Questions 2-4, I gave Claude the assignment PDF and asked for one question at a time. Claude wrote and ran the Python scripts (histograms and 95% CIs, CPI-U conversion and trend plots, and the CCDF voucher t-tests), retrieved the CPI-U annual averages from the BLS Public Data API, and assembled this PDF. It also pointed out data issues (county coverage changing across years, Puerto Rico, the unverified price flags) and suggested the balanced-panel and metro-area robustness checks.
+
+The handwritten work in Part 1 is my own. I checked the outputs, and every result can be reproduced by running the scripts listed below.

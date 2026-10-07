@@ -1,0 +1,25 @@
+# Secrets
+.census_api_key
+.env
+
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# macOS / Office clutter
+.DS_Store
+~$*
+
+# Large raw downloads (see README for sources)
+NDCP2022.xlsx
+PS5/raw/oews/
+
+# Course materials (not ours to publish)
+hw-4-project-files/
+ASSIGNMENT-*.pdf
+
+# Duplicates / unused
+/IMG_*.heic
+/IMG_*.HEIC
+PS4/photos_unused/
